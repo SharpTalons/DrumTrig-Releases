@@ -12,7 +12,7 @@ This repository only holds the downloads. The app's code is kept elsewhere.
 
 Every release is signed with the same key, so a new version installs straight over the old one. Your instruments, samples, EQs and settings are kept.
 
-DrumTrig also tells you when a new version is out. It checks this page once a day and sends nothing about you or your phone. When there is one, it asks as you open the app: **Update** downloads it and Android asks you to install it; **Ignore** skips that version. You can also check any time in **Settings › App › About & help**.
+DrumTrig also tells you when a new version is out. It checks this page each time it opens and sends nothing about you or your phone. When there is one, it asks as you open the app: **Update** downloads it and Android asks you to install it; **Ignore** skips that version. You can also check any time in **Settings › App › About & help**.
 
 ## Recorded drum sounds
 
