@@ -2,24 +2,30 @@
 
 **DrumTrig** turns an Android phone into a live drum trigger. A mic on a drum (or an audio interface) goes in, and the phone plays the sound you chose, with as little delay as the phone can manage.
 
-![The live screen: the input and output meters either side, and the graph of the last hit in the middle](screenshots/live.png)
+![The live screen: the IN and OUT meters either side, and the graph of the incoming sound in the middle](screenshots/live.png)
 
 ## What it does
 
-- **Triggers from any mic.** Set the threshold (THR) on the input meter and a trigger filter on the graph, so only your drum fires the sound and the rest of the kit doesn't.
-- **Set by hitting.** Leave the drum alone for a moment, hit it a few times, and DrumTrig suggests the threshold, the filter and the hold time for you.
-- **Plays the sound you choose.** Bundled sounds, recorded drum kits (a free download inside the app), or your own samples. Each sample has its own EQ.
-- **Shows its delay.** The latency of every hit is measured and shown, with settings to bring it down.
-- **Made for the stage.** A big-type Stage view, Lock so nothing changes mid-song by accident, Mute, and a light and a dark look.
+- **Triggers from any mic.** Set the threshold (THR) on the IN meter, and shape the incoming sound with **Input EQ** on the graph, so only your drum fires the sound and the rest of the kit doesn't. The graph shows the sound as the trigger hears it.
+- **Set by hitting.** Leave the drum alone for a moment, hit it a few times, and DrumTrig suggests the threshold, the Input EQ cuts and the hold time for you. Even without it, Hold sets itself for each kind of drum, and you can still change it.
+- **Plays the sound you choose.** Bundled sounds, recorded drum kits (a free download inside the app), or your own samples. Every sample opens in the sample editor: trim it to the hit, fade the end, set its level, then shape it with its own EQ. The file itself is never changed.
+- **Never clips.** However hard you hit and however high GAIN goes, a limiter turns only the loudest moments down, with no added delay.
+- **Shows its delay.** The latency of every hit is measured and shown, and **Settings › Latency** explains where it comes from, with settings to bring it down.
+- **Made for the stage.** A big-type Stage view, Lock so nothing changes mid-song by accident, Mute, a message if your audio device disconnects, and a light and a dark look.
+- **Two themes.** Classic, with solid panels in warm greys, or Liquid Glass: frosted glass panels over a soft glow of colour, with rounder corners and pill-shaped buttons. Switch between them in **Settings › Display**; both come in light and dark.
 
 | | |
 |---|---|
-| ![The Trigger menu: filter, hold, delay, response](screenshots/trigger-menu.png) | ![Set by hitting, showing the threshold, filter and hold it found](screenshots/set-by-hitting.png) |
-| **Trigger menu**: when a hit counts and how it plays, kept per instrument. | **Set by hitting**: the threshold, filter and hold, found from the drum itself. |
-| ![The EQ on the graph, with four bands over the sample's spectrum](screenshots/eq.png) | ![The Stage view: the instrument, the input meter, a big latency figure](screenshots/stage.png) |
-| **EQ**: up to seven bands per sample, drawn over its sound. | **Stage**: what matters mid-song, readable from behind the kit. |
+| ![The Trigger menu: Input EQ, Hold, Automatic Hold, Range and Response](screenshots/trigger-menu.png) | ![Set by hitting, showing the threshold, Input EQ cuts and hold it found](screenshots/set-by-hitting.png) |
+| **Trigger menu**: when a hit counts and how it plays, kept per instrument. | **Set by hitting**: the threshold, the Input EQ cuts and the hold, found from the drum itself. |
+| ![Input EQ on the graph, with four bands](screenshots/eq.png) | ![The Stage view: the instrument, the input meter, a big latency figure](screenshots/stage.png) |
+| **Input EQ**: up to seven bands per instrument, shaping what reaches THR. | **Stage**: what matters mid-song, readable from behind the kit. |
+| ![The sample editor's first step: the waveform with start, end and fade-out](screenshots/sample-editor.png) | ![The sample editor's second step: Sample EQ over the sample's sound](screenshots/sample-editor-eq.png) |
+| **Sample editor, step 1**: cut it to the hit and set its level. | **Sample editor, step 2**: shape its sound, with Repeat playing it while you change things. |
 
 ![The live screen in the light look](screenshots/live-light.png)
+
+![The live screen with Liquid Glass: frosted glass panels and buttons over a soft teal, blue and orange glow](screenshots/liquid-glass.png)
 
 ## Install or update DrumTrig
 
