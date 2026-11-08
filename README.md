@@ -12,6 +12,7 @@
 - **Never clips.** However hard you hit and however high GAIN goes, a limiter turns only the loudest moments down, with no added delay.
 - **Shows its delay.** The latency of every hit is measured and shown, and **Settings › Latency** explains where it comes from, with settings to bring it down.
 - **Made for the stage.** A big-type Stage view, Lock so nothing changes mid-song by accident, Mute, a message if your audio device disconnects, and a light and a dark look.
+- **Two themes.** Classic, with solid panels in warm greys, or Liquid Glass: frosted glass panels over a soft glow of colour, with rounder corners and pill-shaped buttons. Switch between them in **Settings › Display**; both come in light and dark.
 
 | | |
 |---|---|
@@ -23,6 +24,8 @@
 | **Sample editor, step 1**: cut it to the hit and set its level. | **Sample editor, step 2**: shape its sound, with Repeat playing it while you change things. |
 
 ![The live screen in the light look](screenshots/live-light.png)
+
+![The live screen with Liquid Glass: frosted glass panels and buttons over a soft teal, blue and orange glow](screenshots/liquid-glass.png)
 
 ## Install or update DrumTrig
 
