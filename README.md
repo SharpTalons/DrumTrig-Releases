@@ -8,7 +8,7 @@
 
 - **Triggers from any mic.** Set the threshold (THR) on the IN meter, and shape the incoming sound with **Input EQ** on the graph, so only your drum fires the sound and the rest of the kit doesn't. The graph shows the sound as the trigger hears it.
 - **Set by hitting.** Leave the drum alone for a moment, hit it a few times, and DrumTrig suggests the threshold, the Input EQ cuts and the hold time for you. Even without it, Hold sets itself for each kind of drum, and you can still change it.
-- **Plays the sound you choose.** Bundled sounds, recorded drum kits (a free download inside the app), or your own samples. Every sample opens in the sample editor: trim it to the hit, fade the end, set its level, then shape it with its own EQ. The file itself is never changed.
+- **Plays the sound you choose.** Recorded drum kits (a free download offered when you first open DrumTrig), or your own samples. Every sample opens in the sample editor: trim it to the hit, fade the end, set its level, then shape it with its own EQ. The file itself is never changed.
 - **Never clips.** However hard you hit and however high GAIN goes, a limiter turns only the loudest moments down, with no added delay.
 - **Shows its delay.** The latency of every hit is measured and shown, and **Settings › Latency** explains where it comes from, with settings to bring it down.
 - **Made for the stage.** A big-type Stage view, Lock so nothing changes mid-song by accident, Mute, a message if your audio device disconnects, and a light and a dark look.
@@ -16,7 +16,7 @@
 
 | | |
 |---|---|
-| ![The Trigger menu: Input EQ, Hold, Automatic Hold, Range and Response](screenshots/trigger-menu.png) | ![Set by hitting, showing the threshold, Input EQ cuts and hold it found](screenshots/set-by-hitting.png) |
+| ![The Trigger menu: Input EQ, Hold, Automatic Hold, Invert polarity and Response](screenshots/trigger-menu.png) | ![Set by hitting, showing the threshold, Input EQ cuts and hold it found](screenshots/set-by-hitting.png) |
 | **Trigger menu**: when a hit counts and how it plays, kept per instrument. | **Set by hitting**: the threshold, the Input EQ cuts and the hold, found from the drum itself. |
 | ![Input EQ on the graph, with four bands](screenshots/eq.png) | ![The Stage view: the instrument, the input meter, a big latency figure](screenshots/stage.png) |
 | **Input EQ**: up to seven bands per instrument, shaping what reaches THR. | **Stage**: what matters mid-song, readable from behind the kit. |
