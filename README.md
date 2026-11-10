@@ -7,7 +7,7 @@
 ## What it does
 
 - **Triggers from any mic.** Set the threshold (THR) on the IN meter, and shape the incoming sound with **Input EQ** on the graph, so only your drum fires the sound and the rest of the kit doesn't. The graph shows the sound as the trigger hears it.
-- **Set by hitting.** Leave the drum alone for a moment, hit it a few times, and DrumTrig suggests the threshold, the Input EQ cuts and the hold time for you. Even without it, Hold sets itself for each kind of drum, and you can still change it.
+- **Set by hitting.** Leave the drum alone for a moment, hit it a few times softly and hard, and DrumTrig suggests the threshold, the Input EQ cuts, the hold time and the Range (how much quieter your softest hit plays than your hardest). Even without it, Hold and Range set themselves for each kind of drum.
 - **Plays the sound you choose.** Recorded drum kits (a free download offered when you first open DrumTrig), or your own samples. Every sample opens in the sample editor: trim it to the hit, fade the end, set its level, then shape it with its own EQ. The file itself is never changed.
 - **Never clips.** However hard you hit and however high GAIN goes, a limiter turns only the loudest moments down, with no added delay.
 - **Shows its delay.** The latency of every hit is measured and shown, and **Settings › Latency** explains where it comes from, with settings to bring it down.
@@ -17,7 +17,7 @@
 | | |
 |---|---|
 | ![The Trigger menu: Input EQ, Hold, Automatic Hold, Invert polarity and Response](screenshots/trigger-menu.png) | ![Set by hitting, showing the threshold, Input EQ cuts and hold it found](screenshots/set-by-hitting.png) |
-| **Trigger menu**: when a hit counts and how it plays, kept per instrument. | **Set by hitting**: the threshold, the Input EQ cuts and the hold, found from the drum itself. |
+| **Trigger menu**: when a hit counts and how it plays, kept per instrument. | **Set by hitting**: the threshold, the Input EQ cuts, the hold and the Range, found from the drum itself. |
 | ![Input EQ on the graph, with four bands](screenshots/eq.png) | ![The Stage view: the instrument, the input meter, a big latency figure](screenshots/stage.png) |
 | **Input EQ**: up to seven bands per instrument, shaping what reaches THR. | **Stage**: what matters mid-song, readable from behind the kit. |
 | ![The sample editor's first step: the waveform with start, end and fade-out](screenshots/sample-editor.png) | ![The sample editor's second step: Sample EQ over the sample's sound](screenshots/sample-editor-eq.png) |
@@ -33,11 +33,11 @@
 2. Download `DrumTrig-<version>.apk` and open it.
 3. If Android asks, allow your browser or file manager to install apps.
 
-From 1.0.0, every release is signed with DrumTrig's own private key, so a new version installs straight over the old one and keeps your instruments, samples, EQs and settings.
+From 1.0.0, a new version installs straight over the old one and keeps your instruments, samples, EQs and settings.
 
 **Coming from 0.x (0.44.0 or earlier)? Do this once:**
 1. In the old DrumTrig, open **Settings › Backup** and tap **Export kit**. Save the file.
-2. Uninstall the old DrumTrig. (Android won't install 1.0.0 over it, because 1.0.0 is signed with a new key.)
+2. Uninstall the old DrumTrig. (Android won't install 1.0.0 over a 0.x version.)
 3. Install 1.0.0 from the latest release.
 4. Open **Settings › Backup**, tap **Import kit** and choose the file you saved.
 
@@ -53,3 +53,8 @@ The recorded sounds come from the DrumGizmo kits DRSKit, MuldjordKit and Crocell
 
 - An Android phone or tablet running Android 8.0 or newer.
 - A microphone or trigger: the phone's own mic works for trying it out. A USB audio interface, for both the mic and the sound out, gives the lowest delay.
+- Bluetooth headphones or speakers add far too much delay for live playing; use wired or USB.
+
+## Licence
+
+DrumTrig is free software under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). The recorded drum sounds keep their own CC BY 4.0 licence (see above).
