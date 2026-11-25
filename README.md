@@ -7,12 +7,12 @@
 ## What it does
 
 - **Triggers from any mic.** Set the threshold (THR) on the IN meter, and shape the incoming sound with **Input EQ** on the graph, so only your drum fires the sound and the rest of the kit doesn't. The graph shows the sound as the trigger hears it.
-- **Set by hitting.** Leave the drum alone for a moment, hit it a few times softly and hard, and DrumTrig suggests the threshold, the Input EQ cuts, the hold time and the Range (how much quieter your softest hit plays than your hardest). Even without it, Hold and Range set themselves for each kind of drum.
-- **Plays the sound you choose.** Recorded drum kits (a free download offered when you first open DrumTrig), or your own samples. Every sample opens in the sample editor: trim it to the hit, fade the end, set its level, then shape it with its own EQ. The file itself is never changed.
+- **Set by hitting.** Leave the drum alone while it listens to the room (it counts the seconds down), hit it a few times softly and hard, and DrumTrig suggests the threshold, the Input EQ cuts, the hold time and the Range (how much quieter your softest hit plays than your hardest). Even without it, Hold and Range set themselves for each kind of drum, and Automatic Hold shortens itself to keep up with fast rolls.
+- **Plays the sound you choose.** Recorded drum kits (a free download offered when you first open DrumTrig), or your own samples (WAV, MP3, AAC, FLAC or OGG). With a recorded kit, how hard you hit picks the recording: a hit at -18 dB or louder on the IN meter plays the loudest one. Every sample opens in the sample editor: trim it to the hit, fade the end, set its level, then shape it with its own EQ, hearing each change as you make it. The file itself is never changed.
 - **Never clips.** However hard you hit and however high GAIN goes, a limiter turns only the loudest moments down, with no added delay.
-- **Shows its delay.** The latency of every hit is measured and shown, and **Settings › Latency** explains where it comes from, with settings to bring it down.
-- **Made for the stage.** A big-type Stage view, Lock so nothing changes mid-song by accident, Mute, a message if your audio device disconnects, and a light and a dark look.
-- **Two themes.** Classic, with solid panels in warm greys, or Liquid Glass: frosted glass panels over a soft glow of colour, with rounder corners and pill-shaped buttons. Switch between them in **Settings › Display**; both come in light and dark.
+- **Shows its delay.** The latency of every hit is measured and shown, and **Settings › Sound › Latency** explains where it comes from and what you can do to bring it down. DrumTrig always uses the fastest path your phone offers.
+- **Made for the stage.** A big-type Stage view, Mute, and Lock, so nothing about the instrument you're playing changes mid-song by accident (the graph and Input EQ stay usable). Long-press the logo to turn DrumTrig on or off. It keeps playing when you switch to another app, with an optional floating button to come back (**Settings › On stage › Keep running**), and says so if your audio device disconnects.
+- **Two themes.** Classic, with solid panels in warm greys, or Liquid Glass: frosted glass panels over a soft glow of colour, with rounder corners and pill-shaped buttons. Switch between them in **Settings › App › Display**; both come in light and dark.
 
 | | |
 |---|---|
