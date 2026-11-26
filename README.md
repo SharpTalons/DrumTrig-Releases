@@ -29,7 +29,7 @@
 
 ## Install or update DrumTrig
 
-1. On your phone, open the **[latest release](https://github.com/fubulatu-lang/DrumTrig-Releases/releases/latest)**.
+1. On your phone, open the **[latest release](https://github.com/SharpTalons/DrumTrig-Releases/releases/latest)**.
 2. Download `DrumTrig-<version>.apk` and open it.
 3. If Android asks, allow your browser or file manager to install apps.
 
